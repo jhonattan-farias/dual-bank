@@ -25,11 +25,13 @@ export const Img = styled.div`
 
 background:url(${p => p.img});
 background-repeat:no-repeat;
+color:white;
 
 width:${p => p.width}px;
 height:${p => p.height}px;
 
-margin-right:5px;
+margin-left:${p => p.ml}px;
+margin-right:${p => p.mr}px;
 
 cursor:pointer;
 `;
@@ -54,7 +56,7 @@ margin-left:20px;
 `;
 
 
-export const NameAccount = styled.div`
+export const Text = styled.div`
 display:flex;
 justify-self:flex-start;
 align-items:center;
@@ -97,14 +99,33 @@ color:var(--secondary);
 
 export const InputArea = styled.div`
 display:flex;
-justify-self:flex-end;
-background-color:green;
 
-width:200px;
-
-`;
-
-
-export const Input = styled.input`
+justify-content:space-between;
+align-items:center;
 
 `;
+
+
+export const Input = styled.div`
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:10px;
+
+
+border:1px solid var(--greyish);
+border-radius:8px;
+
+opacity:1;
+
+width:160px;
+height:30px;
+
+margin-right:15px;
+`;
+
+export const TextInput = styled.text`
+color:var(--greyish);
+font-size:${p => p.size};
+`

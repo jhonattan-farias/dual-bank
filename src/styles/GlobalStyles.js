@@ -22,5 +22,7 @@ export default createGlobalStyle`
     --linear1:#622EE5;
     --linear2:#778899;
     --linear3:#FF354E;
+    --greyish:#778899;
+    --side-background:#F9F9F9;
   }
 `;
