@@ -1,5 +1,5 @@
 const url = {
-    Group:'./Money.svg',
+    Group:"./Money.svg",
 }
 
 export default url;
