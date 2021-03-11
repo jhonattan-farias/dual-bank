@@ -1,10 +1,14 @@
-import url from './url.js'
+import React from 'react'
+
+import GlobalStyles from './styles/GlobalStyles.js'
+
+import Layout from './components/Layout'
 
 function App() {
   return (
     <>
-    <h1>Hello World</h1>
-    <img src={'../'}></img>
+  <Layout/>
+  <GlobalStyles/>
   </>
   );
 }
