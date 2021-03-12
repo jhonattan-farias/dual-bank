@@ -15,7 +15,6 @@ export default function Layout(){
             <ExpensesBar/>
             <DocumentsBar/>
             <BalanceDate/>
-
         </Grid>
         </>
     )

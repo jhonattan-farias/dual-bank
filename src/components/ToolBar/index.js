@@ -12,15 +12,6 @@ import frame from '../../assets/ToolBar/Icon-Frame.png'
 import group from '../../assets/ToolBar/Group.png'
 import receipt from '../../assets/ToolBar/Receipt.png'
 
-
-
-
-
-
-
-
-
-
 import {
     Container,
     Img,
